@@ -1,0 +1,21 @@
+package in.versinit;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Main {
+	
+	
+	public static void main(String[] args) {
+		
+		ApplicationContext context=new ClassPathXmlApplicationContext("springbeans.xml");
+		
+		Car carObject = context.getBean(Car.class);
+		
+		
+		carObject.drive();
+		
+		
+	}
+
+}

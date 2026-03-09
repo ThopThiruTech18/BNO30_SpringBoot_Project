@@ -4,9 +4,7 @@ public class Car {
 
 	IEngine engine;
 
-	public void setEngine(IEngine engine) {
-		this.engine = engine;
-	}
+	
 
 	public void drive() {
 		int start = engine.start();

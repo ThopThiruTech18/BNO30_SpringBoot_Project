@@ -1,6 +1,10 @@
 package in.thiru.hasarelation;
 
 public class Car {
+	
+	public Car() {
+		System.out.println("Car :: Constroctor");
+	}
 
 	public void drive() {
 		

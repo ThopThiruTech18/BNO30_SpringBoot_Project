@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="car" class="in.versinit.Car"></bean>
+     <bean id="peng" class="in.versinit.PetrolEngine"></bean>
+      <bean id="deng" class="in.versinit.DieselEngine"></bean>
+     <bean id="eeng" class="in.versinit.ElectricalEngine"></bean>
+
+</beans>
